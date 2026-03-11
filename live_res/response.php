@@ -58,7 +58,7 @@ if (isset($result['candidates'][0]['content']['parts'][0]['text'])) {
 //     $text = $data->text;
 
 //     try {
-//         $client = new Client("AIzaSyCJfKNpeg1oORZhKyfil2JLRQYvv7ERkp4"); # replace with your API key (GEMINI)
+//         $client = new Client("XXXXXXXXXXXXXXXXXXXXXXXXX"); # replace with your API key (GEMINI)
 
 //         // 🔁 Changed only this line to use gemini-2.0-flash
 //         $response = $client->model('gemini-2.0-flash')->generateContent(new TextPart($text));
